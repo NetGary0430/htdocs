@@ -18,7 +18,7 @@
 
     while ($row = mysqli_fetch_array($r, MYSQLI_NUM))
     {
-        echo '<br>'. $row[0];
+        echo '<br>. $row[0];
     }
     mysqli_free_result($r);
     mysqli_close ($dbc);
